@@ -1,3 +1,4 @@
+
 # D3 in React
 
 ---
@@ -14,7 +15,7 @@ https://medium.com/@Elijah_Meeks/d3-is-not-a-data-visualization-library-67ba549e
 
 ## Researching D3
 
-- Not the best examples
+- Not the best and most current examples
 - Can look intimidating
 - API is huge, but documented well and modularized
 - Almost all graph libraries (recharts, react-vis, ...) are depending on d3
@@ -30,6 +31,8 @@ https://medium.com/@Elijah_Meeks/d3-is-not-a-data-visualization-library-67ba549e
   - easy to understand
   - not typed?
 - Might not have full control of your visualizations and/or data
+- Just because D3 is needed, doesn't mean building out svg/canvas is necessary
+  - min/max/scale calculations
 
 ---
 
@@ -37,6 +40,18 @@ https://medium.com/@Elijah_Meeks/d3-is-not-a-data-visualization-library-67ba549e
 ](https://github.com/d3/d3/blob/master/API.md)
 
 ---
+
+## Examples
+* Org Tree https://codesandbox.io/s/kind-archimedes-1romym
+  * Uses `stratify` D3 method to convert a flat data set to a tree.
+* Hill Chart https://codesandbox.io/s/keen-bouman-vs0odt
+* https://wattenberger.com/blog/react-and-d3
+
+## Do you even need a visual? :thinking:
+
+* The Visual Display of Quantitative Information
+  * https://www.slideshare.net/ITCamp/it-camp-2014-effective-data-visualization-david-giard
+  * https://www.youtube.com/watch?v=eJYhBFh41Uo
 
 ## Modular import
 
